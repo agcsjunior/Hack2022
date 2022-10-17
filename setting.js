@@ -1,1 +1,1 @@
-// the settings will be updated 
+// update all settings code 
