@@ -15,6 +15,7 @@ body {
 .menu-bar {
     background-color: brown;
     text-align: center;
+    box-shadow: 0 4px 8px 0 black;
 }
 
 .menu-bar ul {
@@ -27,21 +28,32 @@ body {
     width: 120px;
     margin: 15px;
     padding: 15px;
+    box-shadow: 0 4px 8px 0 black;
+    border-radius: 30px;
+    transition: 0.5s;
 }
+.menu-bar ul li:hover{
+    box-shadow: 0 4px 8px 0 black;
+    border-radius: 30px;
+
+}
+
 
 .menu-bar ul li a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(0, 0, 0);
+
 }
 
 .active,
 .menu-bar ul li:hover {
     background: #C4A484;
-    border-radius: 3px;
+    border-radius: 30px;
 }
 
 .menu-bar .fa {
     margin-right: 8px;
+    box-shadow: 0 4px 8px 0 black;
 }
 
 .ex3 {
@@ -68,6 +80,7 @@ body {
     height: 113px;
     left: 600px;
     top: 3220px;
+    
 }
 
 .button {
@@ -76,17 +89,15 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 .btn {
     border: 1px solid #fff;
     padding: 10px 30px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     border: 1px solid transparent;
-    transition: 0.6s ease;
+    transition: 0.6s ease; 
 }
-
 .btn:hover {
     background-color: #fff;
-    color: #000;
+    color: #000;  
 }
